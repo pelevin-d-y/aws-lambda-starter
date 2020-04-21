@@ -1,0 +1,27 @@
+{
+  "name": "exness-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./node_modules/.bin/serverless offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.exness.io/a.shevchenko.ext/exness-news.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^7.14.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "serverless": "^1.67.3",
+    "serverless-offline": "^6.1.4",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "serverless-step-functions": "^2.18.0",
+    "serverless-step-functions-offline": "^2.1.4"
+  }
+}
